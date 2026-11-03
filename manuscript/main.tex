@@ -8,23 +8,23 @@
 
 \fancypagestyle{jepcsfirstpage}{
   \fancyhf{}
-  \fancyfoot[L]{\parbox[b]{0.87\textwidth}{\scriptsize \copyright~2026 The Authors. Published by the \textit{Journal of Emerging Paradigms in Computing Systems (JEPCS)}. Licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.}}
+  \fancyfoot[L]{\parbox[b]{0.87\textwidth}{\scriptsize Preprint; not peer reviewed. \copyright~2026 Zain Kassem. \href{https://github.com/zekk01/game-save-study}{Public study repository}.}}
   \fancyfoot[R]{\scriptsize\thepage}
   \renewcommand{\headrulewidth}{0pt}
 }
-\jepcsvolume{X}
-\jepcsnumber{X}
+\jepcsvolume{--}
+\jepcsnumber{--}
 \jepcsyear{2026}
-\jepcsarticleid{JEPCS-2026-XXXX}
-\jepcsdoi{10.xxxx/jepcs.2026.xxxx}
+\jepcsarticleid{Unassigned}
+\jepcsdoi{Not assigned}
 \jepcsarticletype{Short Communication}
 \title{Process-Interruption Recovery and Performance Trade-offs in Three Game Save-File Update Strategies: A Reproducible Case Study}
 \author{Zain Kassem}
 \jepcsaffiliations{Independent researcher, Dubai, United Arab Emirates}
 \jepcscorresponding{zainkassem7@gmail.com}
-\jepcsreceived{[Editorial office to complete]}
-\jepcsaccepted{[Editorial office to complete]}
-\jepcspublished{[Editorial office to complete]}
+\jepcsreceived{Not assigned}
+\jepcsaccepted{Not assigned}
+\jepcspublished{Not assigned}
 
 \begin{document}
 \makejepcstitle
@@ -140,7 +140,7 @@ Several threats limit interpretation. First, both runs used one workstation and 
 \section{6. Conclusion and Future Work}
 This case study compared direct overwrite, temporary-file replacement, and two-slot checksummed saves using controlled process termination and a synthetic game-state workload. The .NET study and separate Unity replication showed the same checkpoint-level recovery pattern: direct overwrite temporarily had no valid save after truncation, while the other strategies preserved a prior generation until a new complete state was available. Direct overwrite had the lowest normal-save latency and storage footprint within each run; the two-slot footprint was about 3.5 times the payload in .NET and 2.3 times in Unity. The timing results are specific to separate save volumes and are not a runtime comparison. These are bounded empirical observations, not platform-independent guarantees.
 
-The immediate next step is independent replication on additional devices and operating systems with durable-flush semantics and machine-level fault injection. Further work should include real engine save paths, larger/compressed payloads, and workload patterns from actual games. The study artifacts should be deposited in a public, persistent repository and reviewed before submission.
+The immediate next step is independent replication on additional devices and operating systems with durable-flush semantics and machine-level fault injection. Further work should include real engine save paths, larger/compressed payloads, and workload patterns from actual games. The study artifacts are publicly available at \href{https://github.com/zekk01/game-save-study}{the project repository}; independent replication and further review are recommended.
 
 \section{Author Declarations}
 \jepcsdeclaration{Author Contributions (CRediT)}{Zain Kassem: Conceptualization, Supervision, Validation, Software. ChatGPT is not an author or CRediT contributor; its assistance is disclosed below.}

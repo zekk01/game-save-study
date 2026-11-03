@@ -6,7 +6,7 @@ Finish a reproducible, carefully scoped JEPCS Short Communication package for th
 
 ## Work completed
 
-- Implemented and audited the .NET harness (3,500 fault observations and 900 timing observations) and generated raw data, analysis, figures, and local archive.
+- Implemented and audited the .NET harness (3,500 fault observations and 900 timing observations) and generated raw data, analysis, figures, and public archive at https://github.com/zekk01/game-save-study.
 - Added command-level reproduction instructions. Improved the Unity runner so repeated runs can use fresh labels and the Unity summary tool accepts any chosen run directory; Python syntax/help checks pass.
 - Completed a separate Unity 6000.3.11f1 replication (2,940 valid fault trials, four preserved controller-error rows, and 900 timing observations). Different save volumes mean the runtime timings are not a controlled comparison.
 - Prepared the first manuscript in the JEPCS LaTeX template with protocol, results, limitations, and AI-use declaration.
@@ -25,8 +25,8 @@ Finish a reproducible, carefully scoped JEPCS Short Communication package for th
 - Rendered and visually inspected all seven pages. Figures, table, references, and page furniture are legible, without detected clipping or overlap. One underfull hbox and host-font path warnings remain.
 - Recompile and repeat visual QA after author metadata/declaration edits and human manuscript review.
 
-### 3. Deposit public materials
-- A public GitHub repository is available at https://github.com/zekk01/game-save-study, containing the source/protocol/raw data/scripts/environment notes. No DOI has been assigned; consider archiving a release with Zenodo if a DOI is needed. The manuscript Data Availability statement links the repository.
+### 3. Public materials published
+- The public GitHub repository at https://github.com/zekk01/game-save-study contains the source, protocol, raw data, scripts, manuscript, and environment notes. The manuscript Data Availability statement links it. No DOI has been assigned; depositing a release in Zenodo is optional unless a persistent DOI is desired or required by another policy.
 
 ### 4. Human author review and journal checks
 - Author identity, independent affiliation, email, CRediT roles, funding, acknowledgments, and competing-interest declarations have been added. ORCID was not provided; confirm if available.
@@ -37,7 +37,7 @@ Finish a reproducible, carefully scoped JEPCS Short Communication package for th
 ## Completion criteria
 
 - Clean, compiled, visually inspected manuscript PDF and source.
-- Public versioned reproduction archive with persistent identifier linked in the paper.
+- Public reproduction repository linked in the paper; a DOI may be added by archiving a release if desired or required.
 - Documented literature screening and consistent contribution/limitation claims.
 - Truthful author declarations, similarity screening, and human approval.
 - Submission-ready package with no placeholders. Submission itself is performed by the corresponding author.

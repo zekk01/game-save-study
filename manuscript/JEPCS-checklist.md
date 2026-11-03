@@ -9,7 +9,8 @@ Live guideline, scope, and ethics pages checked 2026-11-03:
 |---|---|
 | Official template and editable source | LaTeX source uses the journal's official class/template; the seven-page PDF was compiled and visually inspected on 2026-11-03 after author details and declarations were added. |
 | Article sections | Title, abstract, keywords, introduction, related work, methods, results/discussion, conclusion, references, and declarations included. |
-| Article type | Draft is marked Short Communication. JEPCS defines these as concise reports of significant findings or preliminary but substantial results; this study’s expected, deterministic single-workstation result may not clear that bar. |
+| Article type | Draft is marked Short Communication. |
+| Short Communication threshold | JEPCS defines this type as a concise report of significant findings, emerging concepts, or preliminary but substantial results ([author guidelines](https://jepcs.org/index.php/jepcs/author-guidelines)). The draft is concise, but its deterministic, single-workstation process-interruption findings may not meet the significance/substantiality threshold; this is the main editorial risk. |
 | Abstract | 161 counted words; below the Short Communication 200-word maximum. |
 | Keywords | Five supplied; within required 3–5. |
 | Figures/tables | Two numbered figures and one table, cited and captioned; draft PDF readability inspected; recheck after revisions. |

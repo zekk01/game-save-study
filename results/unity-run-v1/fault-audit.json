@@ -1,0 +1,17 @@
+{
+  "planned_fault_trials": 2940,
+  "raw_fault_rows_including_four_preserved_collision_records": 2944,
+  "valid_main_fault_trials": 2940,
+  "expected_groups": 147,
+  "complete_groups_with_20_valid_main_trials": 147,
+  "all_groups_complete": true,
+  "preserved_controller_error_rows": 4,
+  "outcomes_including_preserved_controller_errors": {
+    "controller-error": 4,
+    "old-valid": 1880,
+    "no-valid-save": 760,
+    "new-valid": 300
+  },
+  "timing_rows": 900,
+  "group_count_exceptions": {}
+}

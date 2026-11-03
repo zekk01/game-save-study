@@ -1,0 +1,27 @@
+[
+  {
+    "path": "src\\SaveStudy\\Program.cs",
+    "bytes": 23160,
+    "sha256": "a827e66c13c322898fd6765e66c17d8cca0246390ebe0806c8be3fc17f78547c"
+  },
+  {
+    "path": "src\\SaveStudy\\SaveStudy.csproj",
+    "bytes": 252,
+    "sha256": "00bc28c540ad10ab2f879a949a6b98be492845def617aded10dca4a8d52b2c84"
+  },
+  {
+    "path": "src\\SaveStudy\\bin\\Release\\net9.0\\SaveStudy.dll",
+    "bytes": 38912,
+    "sha256": "7c9139aab5c5cc0ce43a48e34224c70626b4c10defc120603cfd347567bf62f5"
+  },
+  {
+    "path": "results\\main-run-v1\\fault-trials.csv",
+    "bytes": 685767,
+    "sha256": "c83c36db2d205b08a592dd40c062a1a543545a48d8551cb656c9a862d50e6ca6"
+  },
+  {
+    "path": "results\\main-run-v1\\save-timings.csv",
+    "bytes": 36828,
+    "sha256": "5c6c481757d09f5facbf9d61164933969f3470ab58af4299e61bdc21332aba0f"
+  }
+]

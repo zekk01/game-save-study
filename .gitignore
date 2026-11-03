@@ -1,0 +1,25 @@
+# Unity generated content
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+
+# IDE and OS files
+.vs/
+.idea/
+*.sln
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Local PDF build and QA outputs
+manuscript/rendered/
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.xdv
+manuscript/*.synctex.gz

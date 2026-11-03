@@ -1,0 +1,34 @@
+{
+  "auditedUtc": "2026-11-02T17:49:39.845730+00:00",
+  "faultRows": 3500,
+  "faultStageGroups": 175,
+  "expectedTrialsPerFaultGroup": 20,
+  "timingRows": 900,
+  "timingGroups": 9,
+  "expectedTimingSamplesPerGroup": 100,
+  "outcomes": {
+    "new-valid": 300,
+    "no-valid-save": 760,
+    "old-valid": 2440
+  },
+  "mixedOutcomeCheckpointGroups": 0,
+  "mixedOutcomeCheckpointGroupKeys": [],
+  "itemCounts": [
+    25,
+    250,
+    1000
+  ],
+  "payloadBytesByItemCount": {
+    "25": [
+      3025
+    ],
+    "250": [
+      29510
+    ],
+    "1000": [
+      117963
+    ]
+  },
+  "issues": [],
+  "interpretation": "0 issues means the files conform to configured row counts and value checks; it does not validate experimental design or generalize beyond this run."
+}

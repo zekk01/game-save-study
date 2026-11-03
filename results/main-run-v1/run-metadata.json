@@ -1,0 +1,26 @@
+{
+  "protocol": "protocol-v1-draft",
+  "createdUtc": "2026-11-02T17:37:37.5192982+00:00",
+  "os": "Microsoft Windows 10.0.26100",
+  "osArchitecture": "X64",
+  "framework": ".NET 9.0.6",
+  "processArchitecture": "X64",
+  "processorCount": 24,
+  "processorIdentifier": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "volumeRoot": "D:\\",
+  "fileSystem": "NTFS",
+  "chunkSizeBytes": 4096,
+  "faultTrialsPerStage": 20,
+  "timingIterationsPerStrategy": 100,
+  "itemCounts": [
+    25,
+    250,
+    1000
+  ],
+  "oldAndNewSeeds": [
+    7,
+    19
+  ],
+  "timerHighResolution": true,
+  "build": "Release"
+}

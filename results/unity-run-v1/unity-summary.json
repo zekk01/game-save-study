@@ -1,0 +1,221 @@
+{
+  "fault_rows": 2944,
+  "fault_groups": 147,
+  "timing_rows": 900,
+  "fault_summary": [
+    {
+      "item_count": "25",
+      "strategy": "direct",
+      "expected_checkpoint_groups": 4,
+      "groups_with_20_non_controller_errors": 4,
+      "raw_rows": 84,
+      "old_valid": 20,
+      "new_valid": 40,
+      "no_valid_save": 20,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 4
+    },
+    {
+      "item_count": "25",
+      "strategy": "replace",
+      "expected_checkpoint_groups": 5,
+      "groups_with_20_non_controller_errors": 5,
+      "raw_rows": 100,
+      "old_valid": 80,
+      "new_valid": 20,
+      "no_valid_save": 0,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    },
+    {
+      "item_count": "25",
+      "strategy": "dual",
+      "expected_checkpoint_groups": 3,
+      "groups_with_20_non_controller_errors": 3,
+      "raw_rows": 60,
+      "old_valid": 20,
+      "new_valid": 40,
+      "no_valid_save": 0,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    },
+    {
+      "item_count": "250",
+      "strategy": "direct",
+      "expected_checkpoint_groups": 11,
+      "groups_with_20_non_controller_errors": 11,
+      "raw_rows": 220,
+      "old_valid": 20,
+      "new_valid": 40,
+      "no_valid_save": 160,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    },
+    {
+      "item_count": "250",
+      "strategy": "replace",
+      "expected_checkpoint_groups": 12,
+      "groups_with_20_non_controller_errors": 12,
+      "raw_rows": 240,
+      "old_valid": 220,
+      "new_valid": 20,
+      "no_valid_save": 0,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    },
+    {
+      "item_count": "250",
+      "strategy": "dual",
+      "expected_checkpoint_groups": 11,
+      "groups_with_20_non_controller_errors": 11,
+      "raw_rows": 220,
+      "old_valid": 180,
+      "new_valid": 40,
+      "no_valid_save": 0,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    },
+    {
+      "item_count": "1000",
+      "strategy": "direct",
+      "expected_checkpoint_groups": 32,
+      "groups_with_20_non_controller_errors": 32,
+      "raw_rows": 640,
+      "old_valid": 20,
+      "new_valid": 40,
+      "no_valid_save": 580,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    },
+    {
+      "item_count": "1000",
+      "strategy": "replace",
+      "expected_checkpoint_groups": 33,
+      "groups_with_20_non_controller_errors": 33,
+      "raw_rows": 660,
+      "old_valid": 640,
+      "new_valid": 20,
+      "no_valid_save": 0,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    },
+    {
+      "item_count": "1000",
+      "strategy": "dual",
+      "expected_checkpoint_groups": 36,
+      "groups_with_20_non_controller_errors": 36,
+      "raw_rows": 720,
+      "old_valid": 680,
+      "new_valid": 40,
+      "no_valid_save": 0,
+      "unexpected_state": 0,
+      "recovery_error": 0,
+      "controller_error": 0
+    }
+  ],
+  "timing_summary": [
+    {
+      "item_count": "25",
+      "strategy": "direct",
+      "n": 100,
+      "median_ms": 0.1422,
+      "p25_ms": 0.1317,
+      "p75_ms": 0.1547,
+      "p95_ms": 0.23872999999999978,
+      "mean_save_directory_bytes": 3027
+    },
+    {
+      "item_count": "25",
+      "strategy": "dual",
+      "n": 100,
+      "median_ms": 0.23755,
+      "p25_ms": 0.21457500000000002,
+      "p75_ms": 0.366375,
+      "p95_ms": 0.6257199999999999,
+      "mean_save_directory_bytes": 7177
+    },
+    {
+      "item_count": "25",
+      "strategy": "replace",
+      "n": 100,
+      "median_ms": 1.6784,
+      "p25_ms": 1.553375,
+      "p75_ms": 1.7834500000000002,
+      "p95_ms": 2.210069999999999,
+      "mean_save_directory_bytes": 3027
+    },
+    {
+      "item_count": "250",
+      "strategy": "direct",
+      "n": 100,
+      "median_ms": 0.19590000000000002,
+      "p25_ms": 0.187125,
+      "p75_ms": 0.2179,
+      "p95_ms": 0.29336499999999993,
+      "mean_save_directory_bytes": 29523
+    },
+    {
+      "item_count": "250",
+      "strategy": "dual",
+      "n": 100,
+      "median_ms": 1.0925,
+      "p25_ms": 0.9093,
+      "p75_ms": 1.2529,
+      "p95_ms": 1.5665899999999997,
+      "mean_save_directory_bytes": 68100
+    },
+    {
+      "item_count": "250",
+      "strategy": "replace",
+      "n": 100,
+      "median_ms": 5.786950000000001,
+      "p25_ms": 5.4207,
+      "p75_ms": 6.148925,
+      "p95_ms": 6.777545,
+      "mean_save_directory_bytes": 29523
+    },
+    {
+      "item_count": "1000",
+      "strategy": "direct",
+      "n": 100,
+      "median_ms": 0.3156,
+      "p25_ms": 0.291625,
+      "p75_ms": 0.3894000000000001,
+      "p95_ms": 0.6171999999999997,
+      "mean_save_directory_bytes": 118027
+    },
+    {
+      "item_count": "1000",
+      "strategy": "dual",
+      "n": 100,
+      "median_ms": 2.5237499999999997,
+      "p25_ms": 2.31395,
+      "p75_ms": 2.705,
+      "p95_ms": 3.0227349999999995,
+      "mean_save_directory_bytes": 271528
+    },
+    {
+      "item_count": "1000",
+      "strategy": "replace",
+      "n": 100,
+      "median_ms": 5.9685500000000005,
+      "p25_ms": 5.551550000000001,
+      "p75_ms": 6.413225,
+      "p95_ms": 7.170954999999999,
+      "mean_save_directory_bytes": 118027
+    }
+  ],
+  "limitations": [
+    "Separate same-workstation Unity runtime replication; do not pool with the .NET main study.",
+    "Forced Player-process termination is not an OS crash or power-loss test.",
+    "Four pilot-collision rows are preserved as controller errors and excluded from main outcomes; the four groups have fresh trial-21 backfills, leaving 20 valid main trials in every group."
+  ]
+}

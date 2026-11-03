@@ -1,0 +1,10 @@
+item_count,strategy,expected_checkpoint_groups,groups_with_20_non_controller_errors,raw_rows,old_valid,new_valid,no_valid_save,unexpected_state,recovery_error,controller_error
+25,direct,4,4,84,20,40,20,0,0,4
+25,replace,5,5,100,80,20,0,0,0,0
+25,dual,3,3,60,20,40,0,0,0,0
+250,direct,11,11,220,20,40,160,0,0,0
+250,replace,12,12,240,220,20,0,0,0,0
+250,dual,11,11,220,180,40,0,0,0,0
+1000,direct,32,32,640,20,40,580,0,0,0
+1000,replace,33,33,660,640,20,0,0,0,0
+1000,dual,36,36,720,680,40,0,0,0,0

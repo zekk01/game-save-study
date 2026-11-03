@@ -1,0 +1,10 @@
+strategy,item_count,checkpoint_groups,stage_trial_observations,old_valid,new_valid,no_valid_save,unexpected_state,recovery_error
+direct,25,4,80,20,40,20,0,0
+dual,25,5,100,60,40,0,0,0
+replace,25,6,120,100,20,0,0,0
+direct,250,11,220,20,40,160,0,0
+dual,250,16,320,280,40,0,0,0
+replace,250,13,260,240,20,0,0,0
+direct,1000,32,640,20,40,580,0,0
+dual,1000,54,1080,1040,40,0,0,0
+replace,1000,34,680,660,20,0,0,0

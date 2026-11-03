@@ -5,27 +5,52 @@
 \usepackage{array}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\hypersetup{pdftitle={Process-Interruption Recovery and Performance Trade-offs in Three Game Save-File Update Strategies: A Reproducible Case Study},pdfauthor={Zain Alaabdin Kassem},pdfsubject={JEPCS Short Communication author manuscript},pdfkeywords={game save systems, crash recovery, fault injection, reproducible benchmarking}}
 
 \fancypagestyle{jepcsfirstpage}{
   \fancyhf{}
-  \fancyfoot[L]{\parbox[b]{0.87\textwidth}{\scriptsize Preprint; not peer reviewed. \copyright~2026 Zain Kassem. \href{https://github.com/zekk01/game-save-study}{Public study repository}.}}
+  \fancyfoot[L]{\parbox[b]{0.87\textwidth}{\scriptsize Author manuscript; not peer reviewed. \copyright~2026 Zain Alaabdin Kassem. \href{https://github.com/zekk01/game-save-study}{Public study repository}.}}
   \fancyfoot[R]{\scriptsize\thepage}
   \renewcommand{\headrulewidth}{0pt}
 }
-\jepcsvolume{--}
-\jepcsnumber{--}
-\jepcsyear{2026}
-\jepcsarticleid{Unassigned}
-\jepcsdoi{Not assigned}
 \jepcsarticletype{Short Communication}
 \title{Process-Interruption Recovery and Performance Trade-offs in Three Game Save-File Update Strategies: A Reproducible Case Study}
-\author{Zain Kassem}
+\author{Zain Alaabdin Kassem}
 \jepcsaffiliations{Independent researcher, Dubai, United Arab Emirates}
 \jepcscorresponding{zainkassem7@gmail.com}
-\jepcsreceived{Not assigned}
-\jepcsaccepted{Not assigned}
-\jepcspublished{Not assigned}
-
+% Author-copy layout: omit editorial production fields that are assigned only after acceptance.
+\fancypagestyle{jepcs}{%
+  \fancyhf{}
+  \fancyhead[C]{\fontsize{10pt}{10pt}\selectfont\itshape Author manuscript | JEPCS submission}
+  \renewcommand{\headrulewidth}{0.5pt}
+  \fancyfoot[C]{\fontsize{8pt}{8pt}\selectfont\itshape Page \thepage}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\fancypagestyle{jepcsfirst}{%
+  \fancyhf{}
+  \fancyfoot[C]{\fontsize{8pt}{8pt}\selectfont Page \thepage}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\renewcommand{\makejepcstitle}{%
+  \thispagestyle{jepcsfirst}%
+  {\centering
+    \includegraphics[width=3.79555in]{\JEPCSLogo}\par
+    \vspace{2pt}
+    {\bfseries\fontsize{10.5pt}{10.5pt}\selectfont Journal of Emerging Paradigms in Computing Systems (JEPCS) | Author Manuscript\par}%
+  }%
+  \vspace{-1.5pt}\noindent\rule{\textwidth}{1.1pt}\par
+  \vspace{3.5pt}
+  {\centering\fontsize{10.5pt}{10.5pt}\selectfont\textbf{ARTICLE TYPE:} \JEPCSArticleType\par}
+  \vspace{8pt}
+  {\centering
+    {\bfseries\fontsize{16pt}{16pt}\selectfont \JEPCSTitle\par}
+    \vspace{2pt}
+    {\bfseries\fontsize{10.5pt}{10.5pt}\selectfont \JEPCSAuthors\par}
+    {\fontsize{9.5pt}{9.5pt}\selectfont \JEPCSAffiliations\par}
+    {\fontsize{9.5pt}{9.5pt}\selectfont Corresponding author: \href{mailto:\JEPCSCorresponding}{\JEPCSCorresponding}\par}
+  }%
+  \vspace{12pt}
+}
 \begin{document}
 \makejepcstitle
 \thispagestyle{jepcsfirstpage}
@@ -143,7 +168,7 @@ This case study compared direct overwrite, temporary-file replacement, and two-s
 The immediate next step is independent replication on additional devices and operating systems with durable-flush semantics and machine-level fault injection. Further work should include real engine save paths, larger/compressed payloads, and workload patterns from actual games. The study artifacts are publicly available at \href{https://github.com/zekk01/game-save-study}{the project repository}; independent replication and further review are recommended.
 
 \section{Author Declarations}
-\jepcsdeclaration{Author Contributions (CRediT)}{Zain Kassem: Conceptualization, Supervision, Validation, Software, Writing -- review \& editing. ChatGPT is not an author or CRediT contributor; its assistance is disclosed below.}
+\jepcsdeclaration{Author Contributions (CRediT)}{Zain Alaabdin Kassem: Conceptualization, Supervision, Validation, Software, Writing -- review \& editing.}
 \jepcsdeclaration{Funding}{This research received no external funding; it was self-funded by the author.}
 \jepcsdeclaration{Data Availability Statement}{The raw observations, analysis scripts, protocol, manuscript source, and Unity prototype are publicly available at \href{https://github.com/zekk01/game-save-study}{public study repository}. No DOI has been assigned to this repository.}
 \jepcsdeclaration{Acknowledgments}{No additional acknowledgments. Generative AI assistance is disclosed separately below.}
@@ -151,7 +176,7 @@ The immediate next step is independent replication on additional devices and ope
 \jepcsdeclaration{Ethics Statement}{Not applicable. No human participants, animals, or personal data were involved.}
 
 \textbf{Declaration of Generative AI:}\par
-During preparation of this manuscript and study materials, ChatGPT (OpenAI) was used for literature searching, coding assistance, data-analysis support, and manuscript drafting. The author must independently verify all methods, code, sources, results, and wording, revise the manuscript, and accept responsibility for its final content before submission.
+ChatGPT (OpenAI) assisted with literature searches, coding, data-analysis support, and manuscript drafting. The author critically revised the manuscript, reviewed the prototype code, checked the reported results, and accepts responsibility for the final content.
 
 \section{References}
 \begin{jepcsreferences}

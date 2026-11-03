@@ -128,15 +128,15 @@
 % Header/footer: no header on page 1; running header from page 2 onward.
 \fancypagestyle{jepcs}{%
   \fancyhf{}
-  \fancyhead[C]{\fontsize{10pt}{10pt}\selectfont\itshape JEPCS | Journal of Emerging Paradigms in Computing Systems | Vol. \JEPCSVolume, No. \JEPCSNumber, \JEPCSYear}
+  \fancyhead[C]{\fontsize{10pt}{10pt}\selectfont\itshape JEPCS | Journal of Emerging Paradigms in Computing Systems | Author manuscript}
   \renewcommand{\headrulewidth}{0.5pt}
-  \fancyfoot[C]{\fontsize{8pt}{8pt}\selectfont\itshape Article ID: \JEPCSArticleID\quad |\quad DOI: \JEPCSDOI\quad |\quad Page \thepage}
+  \fancyfoot[C]{\fontsize{8pt}{8pt}\selectfont\itshape Page \thepage}
   \renewcommand{\footrulewidth}{0pt}
 }
 \fancypagestyle{jepcsfirst}{%
   \fancyhf{}
   \renewcommand{\headrulewidth}{0pt}
-  \fancyfoot[C]{\fontsize{8pt}{8pt}\selectfont Article ID: \JEPCSArticleID\quad |\quad DOI: \JEPCSDOI\quad |\quad Page \thepage}
+  \fancyfoot[C]{\fontsize{8pt}{8pt}\selectfont Page \thepage}
   \renewcommand{\footrulewidth}{0pt}
 }
 \pagestyle{jepcs}
@@ -147,7 +147,7 @@
   {\centering
     \includegraphics[width=3.79555in]{\JEPCSLogo}\par
     \vspace{2pt}
-    {\bfseries\fontsize{10.5pt}{10.5pt}\selectfont Journal of Emerging Paradigms in Computing Systems (JEPCS) | Vol. \JEPCSVolume, No. \JEPCSNumber, \JEPCSYear\par}%
+    {\bfseries\fontsize{10.5pt}{10.5pt}\selectfont Journal of Emerging Paradigms in Computing Systems (JEPCS) | Author manuscript\par}%
   }%
   \vspace{-1.5pt}\noindent\rule{\textwidth}{1.1pt}\par
   \vspace{3.5pt}

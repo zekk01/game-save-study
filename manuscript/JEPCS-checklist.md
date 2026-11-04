@@ -7,7 +7,7 @@ Live guideline, scope, and ethics pages checked 2026-11-03:
 
 | Requirement | Current status |
 |---|---|
-| Official template and editable source | LaTeX source uses the journal's official class/template; the seven-page PDF was compiled and visually inspected on 2026-11-03 after author details and declarations were added. |
+| Official template and editable source | LaTeX source uses the journal's official class/template; the seven-page PDF was compiled and visually checked after the 2026-11-04 prose revision; PDF text extraction found no unassigned editorial fields. |
 | Article sections | Title, abstract, keywords, introduction, related work, methods, results/discussion, conclusion, references, and declarations included. |
 | Article type | Draft is marked Short Communication. |
 | Short Communication threshold | JEPCS author guidelines define a Short Communication as a concise report of significant findings, emerging concepts, or preliminary but substantial results; the Submissions page further calls for concise but significant findings or preliminary results of substantial interest ([guidelines](https://jepcs.org/index.php/jepcs/author-guidelines), [submissions](https://jepcs.org/index.php/jepcs/about/submissions)). The draft is concise, but its deterministic, single-workstation process-interruption findings may not meet the significance/substantiality threshold; this remains a major editorial risk. |

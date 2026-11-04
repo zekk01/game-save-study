@@ -23,7 +23,7 @@ Finish a reproducible, carefully scoped JEPCS Short Communication package for th
 ### 2. Compile and inspect
 - Initial draft compiled with Tectonic 0.17.0 using the official project mirror for the v33 bundle; the missing JEPCS logo was restored from the supplied official template archive.
 - Rendered and visually inspected all seven pages. Figures, table, references, and page furniture are legible, without detected clipping or overlap. One underfull hbox and host-font path warnings remain.
-- Recompile and repeat visual QA after author metadata/declaration edits and human manuscript review.
+- Recompiled on 2026-11-04 after prose revision and repeated seven-page visual QA; no layout issues found.
 
 ### 3. Public materials published
 - The public GitHub repository at https://github.com/zekk01/game-save-study contains the source, protocol, raw data, scripts, manuscript, and environment notes. The manuscript Data Availability statement links it. No DOI has been assigned; depositing a release in Zenodo is optional unless a persistent DOI is desired or required by another policy.
